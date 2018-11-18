@@ -99,3 +99,17 @@ h1, h2, h3, h4, h5 {
 #mainpage h5 {
   font-size:14px;
 }
+
+/*Footer*/
+#footer {
+  margin: 0 auto;
+  width: 685px;
+  height:20px;
+  padding:10px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #DCDCDC;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  clear:both;
+}
