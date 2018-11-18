@@ -18,3 +18,35 @@ background: #FFFAF0 url(images/BG1.jpg) repeat-x;
   font-family: Verdana, "Times New Roman", "Book Antiqua";
   color: #DC143C;
 }
+
+/*Navigation*/
+#topmenu {
+  display:block;
+  list-style:none;
+  padding:0 0px 0px 278px;
+  float: left;
+  width: 415px;
+}
+#topmenu li {
+  dispaly:inline;
+}
+#topmenu a {
+  dispaly:block;
+  float:left;
+  height:28px;
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+}
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+  color: #8B0000
+}
+#topmenu a:hover {
+  color: #FF1493;
+  background-color: #FFFFFF;
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
+  color: #FFFFFF;
+  background-color: #DAA520;
+}
