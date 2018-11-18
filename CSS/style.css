@@ -18,6 +18,9 @@ background: #FFFAF0 url(images/BG1.jpg) repeat-x;
   font-family: Verdana, "Times New Roman", "Book Antiqua";
   color: #DC143C;
 }
+#topbar {
+  height:80px;
+}
 
 /*Navigation*/
 #topmenu {
