@@ -23,7 +23,7 @@ background: #FFFAF0 url(images/BG1.jpg) repeat-x;
 #topmenu {
   display:block;
   list-style:none;
-  padding:0 0px 0px 278px;
+  padding: 0px 0px 0px 278px;
   float: left;
   width: 415px;
 }
@@ -49,4 +49,51 @@ background: #FFFAF0 url(images/BG1.jpg) repeat-x;
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {
   color: #FFFFFF;
   background-color: #DAA520;
+}
+
+/*Content*/
+#content {
+  background-color: #F8F8FF;
+}
+#mainpage {
+  width:700px;
+  float:left;
+  padding:5px 5px 5px 0px;
+  height: auto;
+}
+#mainpage p {
+  line-height:22px;
+  margin:10px 0px 22px 0px;
+  text-align: justify;
+}
+#mainpage blockquote {
+  background: ;
+  display:block;
+  margin:5px;
+  font: Georgia, "Times new Roman", Times, serif;
+  font-style:normal;
+}
+h1, h2, h3, h4, h5 {
+  color: ;
+  font-weight:bold;
+  font-family: Arial, Georgia, Helvetica, sans-serif;
+}
+#mainpage h1 {
+  font-size:24px;
+  color: #DC143C
+}
+#mainpage h2 {
+  font-size:18px;
+  padding-top:20px;
+  padding-bottom:5px;
+  border-bottom: 1px solid #000000;
+}
+#mainpage h3 {
+  font-size:20px;
+}
+#mainpage h4 {
+  font-size:18px;
+}
+#mainpage h5 {
+  font-size:14px;
 }
