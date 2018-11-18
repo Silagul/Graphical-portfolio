@@ -1,5 +1,5 @@
 body {
-background: #FFFAF0 url(images/brickbg.jpg) repeat-x;
+background: url(images/brickbg.jpg) repeat-x;
 
 }
 
@@ -14,11 +14,8 @@ background: #FFFAF0 url(images/brickbg.jpg) repeat-x;
 /*Header*/
 #header {
   height:250px;
-  background:url(images/lightbg.jpg) no-repeat left top;
+  background: url(images/lightbg.jpg) no-repeat left top;
   clear: both;
-  margin: 0px auto 15px auto;
-  font-family: Verdana, "Times New Roman", "Book Antiqua";
-  color: #DC143C;
 }
 #topbar {
   height:80px;
