@@ -1,3 +1,16 @@
+body {
+background: #FFFAF0 url(images/BG1.jpg) repeat-x;
+
+}
+
+#wrap {
+  width:700px;
+  margin: 0px auto 15px auto;
+  font-family: Verdana, "Times New Roman", "Book Antiqua";
+  font-size:12px;
+  color: #666666
+}
+
 /*Header*/
 #header {
   height:250px;
