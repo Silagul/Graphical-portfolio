@@ -4,6 +4,29 @@
 <head>
   <title>My graphical portfolio</title>
   <link href="CSS/style.css" rel="stylesheet" type="text/css">
+  
+  <!-- JavaScript -->
+  <script>
+    function validateForm()
+    {
+      if (document.forms["MessageMe"]["firstname"].value==null || document.forms["MessageMe"]["firstname"].value=="")
+    }
+    alert("Please, fill in your first name.");
+      return false;
+      {
+        if (document.forms["MessageMe"]["lastname"].value==null || document.forms["MessageMe"]["lastname"].value=="")
+      }
+      alert("Please, fill in your last name.");
+      return false;
+        {
+          if (document.forms["MessageMe"]["gender"].value==null || document.forms["MessageMe"]["gender"].value=="")
+        }
+        alert("Please, fill in your gender.");
+      return false;
+          {
+            return true;
+          }
+    </script>
 </head>
 <body>
   <div id="wrap">
@@ -72,7 +95,7 @@
 </table>
       <br>
       
-      <form>
+      <form name="MessageMe" onsubmit="return validateForm()">
         First name: <input type="text" name="firstname"> <br>
         Last name: <input type="text" name="lastname"> <br>
         Gender: <br> <input type="radio" name="gender" value="male" checked> Male <br>
