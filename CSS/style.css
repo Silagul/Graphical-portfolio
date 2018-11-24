@@ -76,14 +76,14 @@ background: #FFFAF0 url(https://raw.githubusercontent.com/Silagul/Graphical-port
   color: #FFFAF0;
 }
 #mainpage blockquote {
-  background: ;
+  background: #B22222;
   display:block;
   margin:5px;
   font: Georgia, "Times New Roman", Times, serif;
   font-style:normal;
 }
 h1, h2, h3, h4, h5 {
-  color: ;
+  color: #FFFAF0;
   font-weight:bold;
   font-family: Arial, Georgia, Helvetica, sans-serif;
 }
@@ -109,6 +109,18 @@ h1, h2, h3, h4, h5 {
 #mainpage h5 {
   font-size:14px;
   color: #FFF8DC;
+}
+table, th, td {
+    border: 1px solid black;
+  color: #FFFAF0;
+}
+th {
+    text-align: left;
+  color: #FFFAF0;
+  font-weight: bold;
+}
+th, td {
+    padding: 15px;
 }
 
 /*Footer*/
