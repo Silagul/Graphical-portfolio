@@ -72,7 +72,7 @@ background: #FFFAF0 url(https://raw.githubusercontent.com/Silagul/Graphical-port
   background: ;
   display:block;
   margin:5px;
-  font: Georgia, "Times new Roman", Times, serif;
+  font: Georgia, "Times New Roman", Times, serif;
   font-style:normal;
 }
 h1, h2, h3, h4, h5 {
@@ -82,22 +82,26 @@ h1, h2, h3, h4, h5 {
 }
 #mainpage h1 {
   font-size:24px;
-  color: #DC143C
+  color: #DC143C;
 }
 #mainpage h2 {
   font-size:18px;
+  color: #FFF8DC;
   padding-top:20px;
   padding-bottom:5px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #000000;
 }
 #mainpage h3 {
   font-size:20px;
+  color: #B22222;
 }
 #mainpage h4 {
   font-size:18px;
+  color: #FFF8DC;
 }
 #mainpage h5 {
   font-size:14px;
+  color: #FFF8DC;
 }
 
 /*Footer*/
