@@ -110,6 +110,8 @@ h1, h2, h3, h4, h5 {
   font-size:14px;
   color: #FFF8DC;
 }
+
+/*Tables*/
 table, th, td {
     border: 1px solid black;
   color: #FFFAF0;
@@ -121,6 +123,11 @@ th {
 }
 th, td {
     padding: 15px;
+}
+
+/*Forms*/
+form {
+  color: #FFFAF0;
 }
 
 /*Footer*/
