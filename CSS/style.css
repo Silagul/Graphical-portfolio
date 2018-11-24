@@ -66,6 +66,9 @@ background: #FFFAF0 url(https://raw.githubusercontent.com/Silagul/Graphical-port
 #mainpage li {
   color: #FFFAF0;
 }
+#mainpage a {
+  color: #DAA520;
+}
 #mainpage p {
   line-height:22px;
   margin:10px 0px 22px 0px;
