@@ -63,6 +63,9 @@ background: #FFFAF0 url(https://raw.githubusercontent.com/Silagul/Graphical-port
   padding:5px 5px 5px 0px;
   height: auto;
 }
+#mainpage li {
+  color: #FFFAF0;
+}
 #mainpage p {
   line-height:22px;
   margin:10px 0px 22px 0px;
