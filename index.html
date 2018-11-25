@@ -135,7 +135,7 @@
       <script>
         function showLocation()
           {
-          if (navigator.geolocation)
+           if (navigator.geolocation)
           {
             navigator.geolocation.getCurrentPosition(showPosition);
           }
@@ -143,11 +143,12 @@
           {
             alert ("Your browser doesn't support geolocation.");
           }
-         function showPosition(position)
+        }
+        
+        function showPosition(position)
           {
             alert ("Latitude: " + position.coords.latitude + "Longitude: " + position.coords.longitude)
           }
-        }
         </script>
       </div>
       </div>
