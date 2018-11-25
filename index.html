@@ -122,13 +122,15 @@ function drop(ev) {
       <img src="images/Sharzaer.jpg" alt="Sharzaer" style="width:300px;height:400px;"> <p> &copy; 2017 Johanna Kasurinen </p> <br>
       
       <!-- Drag and drop -->
-      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
 
       <img id="drag1" src="images/And Then Burn the Ashes.png" draggable="true"
-       ondragstart="drag(event)" width="200" height="220">
+       ondragstart="drag(event)" width="200" height="220"></div>
       
-      <button onclick="draw(0,0)"> Draw </button>
-      <canvas id="canvas" width="200" height="220"></canvas>
+      <div id="drag2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      
+      <div id="drag3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     
       
       <h2 id="findme"> Find Me </h2>
        <table style="width:100%">
