@@ -129,6 +129,24 @@
         Your message: <input type="text" name="message"> <br>
         <input type="submit" value="Submit">
         </form>
+      <br>
+      <p>Wanna find yourself? Click this button below to get your geolocation!</p>
+      <button onclick="showLocation()">Your geolocation</button>
+      <script>
+        function showLocation() {
+          if (navigator.geolocation)
+          {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          }
+          else
+          {
+            alert ("Your browser doesn't support geolocation.");
+          }
+         function showPosition(position){
+            alert ("Latitude: " + position.coords.latitude + "Longitude: " + position.coords.longitude)
+          }
+        }
+        </script>
       </div>
       </div>
     
