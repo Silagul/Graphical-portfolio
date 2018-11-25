@@ -27,6 +27,23 @@
             return true;
           }
     </script>
+  
+  <!-- Drag and drop code -->
+  <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
 </head>
 <body>
   <div id="wrap">
@@ -83,7 +100,13 @@
        <iframe width="560" height="315" src="https://www.youtube.com/embed/_UVF0OcErgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <h2 id="myart"> My Art </h2>
-      <img src="images/Sharzaer.jpg" alt="Sharzaer" style="width:300px;height:400px;"> <p> &copy; 2017 Johanna Kasurinen </p>
+      <img src="images/Sharzaer.jpg" alt="Sharzaer" style="width:300px;height:400px;"> <p> &copy; 2017 Johanna Kasurinen </p> <br>
+      
+      <!-- Drag and drop -->
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      <img id="drag1" src="images/And_Then_Burn_the_Ashes.png" draggable="true"
+       ondragstart="drag(event)" width="300" height="400">
       
       <h2 id="findme"> Find Me </h2>
        <table style="width:100%">
